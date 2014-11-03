@@ -1,71 +1,373 @@
-<!doctype html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <title>Studio by flvx</title>
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="utf-8" />
+<title>Studio Legale Avvocato Uberto Uberti - Cassano d'Adda Milano</title>
+<meta name="description" content="Studio legale Avvocato Uberto Uberti, Cassano d'Adda, Milano" />
+<meta name="keywords" content="avvocato uberti, uberto uberti, avv uberti, avv. uberti, uberto ezio uberti, avv uberto ezio uberti, uberto ezio maria uberti, studio legale, avvocato, avvocati, assistenza legale, legale, studio, domiciliazioni, milano, cassano, cassano d'adda, lodi, monza, bergamo, causa, citazione, denuncia, tutela, divorzio, separazione, separazioni, divorzi, contratti, contratto, separazioni, divorzi, civilista, avvocato civilista, diritto di famiglia, penalista, avvocato penalista, truffe, promotori finanziari, mediolanum" />
+<style type="text/css">
+body {
+margin:0;
+padding:0;
+background:#fff;
+color:#393733;
+font:100% ''lucida sans', geneva, arial, helvetica', sans-serif;
+}
 
-    <link rel="stylesheet" href="stylesheets/styles.css">
-    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
-    <!--[if lt IE 9]>
-    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
-  </head>
-  <body>
-    <div class="wrapper">
-      <header>
-        <h1>Studio</h1>
-        <p>Studio Legale Uberti</p>
+a img {border:none;}
+a:link,a:active,a:visited {color:#0b5cfc;}
+a:visited {color:#79bdfb;}
 
-        <p class="view"><a href="https://github.com/flvx/studio">View the Project on GitHub <small>flvx/studio</small></a></p>
+a[href^="http://"] {
+    background: url(data:image/gif;base64,R0lGODlhDQAHAPABAIrK/AAAACH/C05FVFNDQVBFMi4wAwEAAAAh+QQFAAABACwAAAAADQAHAEACFIQPEams35KDcSHT3lyVx3tQDBYUADs=) center right no-repeat;
+    padding-right: 17px;
+}
+
+#mn {
+background:#fff;
+margin:0 auto;
+padding:0 10px;
+width:960px;
+}
+
+.lg {
+text-decoration:none;
+}
+
+h1{
+color:#999;
+margin:48px 0 50px;
+font-size:300%;
+text-transform:uppercase;
+letter-spacing:10px;
+text-decoration:none;
+font-family: 'Lato', sans-serif;
+border-bottom:1px solid #ececec;
+}
+
+nav{
+  margin:0;
+  padding:0;
+  position: fixed;
+  bottom:0;
+  left:0;
+  z-index: 1000;
+  background: rgb(90, 180, 252); /* Fall-back for browsers that don't support rgba */
+    background: rgba(90, 180, 252, .7);
+  text-align: left;
+  width:100%;
+  height:65px;
+  font-weight: 600;
+  font-size: 110%;
+  letter-spacing:2px;
+  font-family: 'Lato', sans-serif;
+  }
+
+#navwrap{
+  margin:0 auto;
+  padding:0 10px;
+  width:960px;
+  } 
+  
+nav ul{
+    position: relative;
+    margin:20px 0 0;
+  padding: 0;
+    }
+
+nav ul li{
+  display: inline;
+  margin:0;
+  padding: 0;
+  margin-right: 30px;
+  }
+  
+nav ul li a{
+  color:#eee !important;
+  text-transform: uppercase;
+  text-decoration: none;
+  margin: 0;
+  padding-right: 0px;
+  overflow: visible;
+  }
+
+  nav ul li a:hover{
+  color:#fff !important;
+  }
+  
+#map_canvas {
+  margin:0 0 20px;
+  padding:0;
+  border: none;
+    width:100%;
+    height:390px;
+    background:#ccc;
+    }
+
+iframe {
+  margin:0;
+  padding:0;
+  border:0;
+  width:100%;
+  height:390px;
+}
 
 
+#pt {
+background:#fff url(t.jpg) top left no-repeat;
+margin:0 auto;
+padding-bottom:10px;
+width:100%;
+height:390px;
+}
+
+
+.tx {
+margin:50px 0 0px !important;
+padding:20px 0;
+text-align:left;
+line-height:1.8;
+border-top:1px solid #ececec;
+}
+
+.txa {
+margin:50px 0 0px !important;
+padding:20px 0;
+text-align:left;
+line-height:1.8;
+border-top:1px solid #ececec;
+background:#fafafa;
+/* Safari 4-5, Chrome 1-9 */
+background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#fafafa), to(#fff));
+/* Safari 5.1, Chrome 10+ */
+background: -webkit-linear-gradient(top, #fafafa, #fff);
+/* Firefox 3.6+ */
+background: -moz-linear-gradient(top, #fafafa, #fff);
+/* IE 10 */
+background: -ms-linear-gradient(top, #fafafa, #fff);
+/* Opera 11.10+ */
+background: -o-linear-gradient(top, #fafafa, #fff);
+}
+
+h2 {
+font-size:110%;
+text-transform:uppercase;
+letter-spacing:2px;
+}
+
+h3 {
+font-size:100%;
+margin:2em 0 0;
+}
+
+#ft {
+position:relative;
+margin:100px auto 100px;
+padding:0px 0;
+text-align:left;
+border-top:1px solid #ececec;
+color:#666;
+}
+
+.rel {
+position:relative;
+
+}
+
+.ftl {
+width:60%;
+}
+
+.ftr {
+position:absolute;
+top:20px;
+right:0px;
+padding-right:100px;
+}
+
+ .notes { 
+ margin:30px 0;
+ color:#999;
+ font-size:80%;
+ font-style: italic;
+ }
+
+.hide::after { content: 'uberti.net';}
+
+.cols2 {
+  -webkit-column-count: 2;
+  -webkit-column-gap: 20px;
+  -webkit-column-rule: 1px solid #ececec;
+
+  -moz-column-count: 2;
+  -moz-column-gap: 20px;
+  -moz-column-rule: 1px solid #ececec;
+
+  column-count: 2;
+  column-gap: 20px;
+  column-rule: 1px solid #ececec;
+ }
+
+ .cols2 .all {
+ margin-bottom:10px;
+  -webkit-column-span:all;
+  -moz-column-span:all;
+  column-span:all;
+ }
+
+ p  { 
+-webkit-column-break-inside:avoid;
+-moz-column-break-inside:avoid;
+column-break-inside:avoid;
+ }
+
+ .mob {
+display: none;
+    }
+
+ @media only screen and (max-device-width: 480px) {
+
+nav, .no {
+display: none;
+    }
+
+ .mob {
+display:block;
+    }
+
+#mn, .ftl {
+  width:100%;
+}
+
+#ft {
+margin:100px auto 0px;
+}
+
+.ftr {
+
+}
+
+
+
+  }
+
+</style>
+<link href="http://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css" />
+</head>
+<body id="top">
+
+<nav>
+ <div id="navwrap">
         <ul>
-          <li><a href="https://github.com/flvx/studio/zipball/master">Download <strong>ZIP File</strong></a></li>
-          <li><a href="https://github.com/flvx/studio/tarball/master">Download <strong>TAR Ball</strong></a></li>
-          <li><a href="https://github.com/flvx/studio">View On <strong>GitHub</strong></a></li>
+          <li class="active"><a href="#top" class="scroll">home</a></li>
+      <li><a href="#attivita" class="scroll">attività</a></li>
+      <li><a href="#profilo" class="scroll">profilo</a></li>
+      <li><a href="#domiciliazioni" class="scroll">domiciliazioni</a></li>
+      <li><a href="#sede" class="scroll">sede</a></li>
+      <li><a href="#contatti" class="scroll">contatti</a></li>
         </ul>
-      </header>
-      <section>
-        <h3>
-<a name="welcome-to-github-pages" class="anchor" href="#welcome-to-github-pages"><span class="octicon octicon-link"></span></a>Hello! Welcome to GitHub Pages.</h3>
+ </div>
+ </nav>
 
-<p>This automatic page generator is the easiest way to create beautiful pages for all of your projects. Author your page content here using GitHub Flavored Markdown, select a template crafted by a designer, and publish. After your page is generated, you can check out the new branch:</p>
+<div id="mn">
 
-<pre><code>$ cd your_repo_root/repo_name
-$ git fetch origin
-$ git checkout gh-pages
-</code></pre>
+<a href="/" class="lg"><h1>Studio Legale Uberti</h1></a>
 
-<p>If you're using the GitHub for Mac, simply sync your repository and you'll see the new branch.</p>
+<div id='pt'></div>
 
-<h3>
-<a name="designer-templates" class="anchor" href="#designer-templates"><span class="octicon octicon-link"></span></a>Designer Templates</h3>
 
-<p>We've crafted some handsome templates for you to use. Go ahead and continue to layouts to browse through them. You can easily go back to edit your page before publishing. After publishing your page, you can revisit the page generator and switch to another theme. Your Page content will be preserved if it remained markdown format.</p>
+<section id="contatti" class="tx rel">
+<div class='ftl'>
+<h2>benvenuti</h2>
+<p>Lo Studio Legale Uberti mette a disposizione dei suoi clienti oltre 25 anni di esperienza spesi a difendere e curare gli interessi di privati, società ed enti.</p>
+<p>Lo studio si occupa primariamente di diritto civile e in particolare di separazioni e divorzi, infortuni e risarcimenti danni, locazioni e sfratti, contratti e recupero crediti.</p>
+<p>Lo studio ha sede a Cassano d&#8217;Adda e fornisce servizi di domiciliazione legale presso i tribunali di Lodi, Monza, Milano e Bergamo.</p>
+</div>
 
-<h3>
-<a name="rather-drive-stick" class="anchor" href="#rather-drive-stick"><span class="octicon octicon-link"></span></a>Rather Drive Stick?</h3>
+<div class='ftr no'>
+<h2>contatti</h2>
+<p>Studio Legale Uberti<br />
+via Carducci 1<br />
+20062 Cassano d&#8217;Adda MI</p>
+<p>Tel.: 0363 61 378<br/>
+Fax: 0363 180 2009<br/>
+Email: <span class="hide">studio@</span><br/>
+PEC: <span class="hide">studio@pec.</span>
+</p>
+</div>
+</section>
 
-<p>If you prefer to not use the automatic generator, push a branch named <code>gh-pages</code> to your repository to create a page manually. In addition to supporting regular HTML content, GitHub Pages support Jekyll, a simple, blog aware static site generator written by our own Tom Preston-Werner. Jekyll makes it easy to create site-wide headers and footers without having to copy them across every page. It also offers intelligent blog support and other advanced templating features.</p>
+<section id="contattimob" class="tx mob">
+<h2>contatti</h2>
+<p>Studio Legale Uberti<br />
+via Carducci 1<br />
+20062 Cassano d&#8217;Adda MI</p>
+<p>Tel.: 0363 61 378<br/>
+Fax: 0363 180 2009<br/>
+Email: <span class="hide">studio@</span><br/>
+PEC: <span class="hide">studio@pec.</span>
+</p>
+</section>
 
-<h3>
-<a name="authors-and-contributors" class="anchor" href="#authors-and-contributors"><span class="octicon octicon-link"></span></a>Authors and Contributors</h3>
 
-<p>You can <a href="https://github.com/blog/821" class="user-mention">@mention</a> a GitHub username to generate a link to their profile. The resulting <code>&lt;a&gt;</code> element will link to the contributor's GitHub Profile. For example: In 2007, Chris Wanstrath (<a href="https://github.com/defunkt" class="user-mention">@defunkt</a>), PJ Hyett (<a href="https://github.com/pjhyett" class="user-mention">@pjhyett</a>), and Tom Preston-Werner (<a href="https://github.com/mojombo" class="user-mention">@mojombo</a>) founded GitHub.</p>
+<section id="sede" class="txa">
+<h2>Sede dello Studio</h2>
+<p>Lo studio si trova a Cassano d&#8217;Adda, Milano, al primo piano del palazzo di via Carducci 1.<br />In alternativa, è possibile incontrare l&#8217;avvocato a Trezzo sull&#8217;Adda o a Milano.</p><p>Si riceve solo su appuntamento.</p>
+<figure id="map_canvas">
+  
+<iframe src="https://www.google.com/maps/embed/v1/place?q=Studio+Legale+Uberti%2C+Cassano+d'Adda%2C+Milan%2C+Italy&key=AIzaSyBR7CHxce8-824056RFUcW5rblIjC9cOeI&zoom=15"></iframe>
 
-<h3>
-<a name="support-or-contact" class="anchor" href="#support-or-contact"><span class="octicon octicon-link"></span></a>Support or Contact</h3>
+</figure>
+</section>
 
-<p>Having trouble with Pages? Check out the documentation at <a href="http://help.github.com/pages">http://help.github.com/pages</a> or contact <a href="mailto:support@github.com">support@github.com</a> and we’ll help you sort it out.</p>
-      </section>
-      <footer>
-        <p>This project is maintained by <a href="https://github.com/flvx">flvx</a></p>
-        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
-      </footer>
-    </div>
-    <script src="javascripts/scale.fix.js"></script>
-    
-  </body>
+
+<section id="attivita" class="tx no">
+<div class="cols2">
+<div class="all">
+<h2>Attività dello Studio</h2>
+<p>Lo studio si occupa di diritto civile a 360 gradi. In particolare:</p></div>
+<h3>Diritto di Famiglia</h3>
+<p>Separazioni e divorzi, consensuali e giudiziali. Tutti i procedimenti in materia di affidamento dei figli, revisione dell&#8217;affidamento, modalità dell'esercizio del diritto di visita, mantenimento dei figli, assegno di separazione e divorzio, assegnazione della casa coniugale, riconoscimento e disconoscimento di paternità.</p>
+<h3>Diritto Immobiliare</h3>
+<p>Tutela degli acquirenti di immobili da costruire e dei proprietari immobiliari. Assistenza nella redazione di contratti di locazione, nelle procedure giudiziali di sfratto per morosità o per finita locazione, nelle procedure abbreviate di rilascio di immobili occupati, nelle azioni possessorie (azione di reintegrazione nel possesso, azione di manutenzione, denuncia di nuova opera e di danno temuto) e nelle controversie con i vicini.</p>
+<h3>Responsabilità Civile e Infortunistica Stradale</h3>
+<p>Risarcimenti a seguito di incidenti stradali e tutela dei danneggiati. Gestione delle procedure finalizzate al raggiungimento di una congrua liquidazione del danno in via bonaria o giudiziale.</p>
+<h3>Recupero Crediti</h3>
+<p>Servizi di consulenza e assistenza legale finalizzati al recupero dei crediti. Interventi stragiudiziali, tempestive azioni in ambito monitorio, giudiziale e con procedure esecutive.</p>
+<h3>Tutela Giudiziaria</h3>
+<p>Lo studio rappresenta i suoi clienti dinnanzi alle autorità giudiziarie civili, penali ed amministrative.</p>
+<h3>Contratti e altri negozi giuridici</h3>
+<p>Lo studio fornisce consulenza per la conclusione di contratti, statuti, regolamenti, verbali di assemblea o testamenti.</p>
+<h3>Consulenze e Pareri</h3>
+<p>Lo studio assiste i suoi clienti in merito ai diritti ed alle obbligazioni nonché alle relative conseguenze giuridiche. Su richiesta vengono elaborati pareri scritti.</p>
+</div>
+</section>
+
+
+<section id="profilo" class="txa">
+<h2>Profilo dell&#8217;Avvocato</h2>
+<p>L&#8217;avvocato Uberto Uberti esercita la professione da più di 25 anni e si è occupato di centinaia di casi, civili e penali, curando e difendendo gli interessi di individui, società ed enti.</p>
+<p>A cavallo tra gli anni Ottanta e Novanta ha svolto l&#8217;attività di vicepretore onorario presso il Tribunale di Cassano d&#8217;Adda.</p>
+<p>Collabora con il consultorio &#8220;La Famiglia&#8221; di Trezzo sull&#8217;Adda dove tiene corsi sul diritto di famiglia.</p>
+<p>Sposato, padre di tre figli, è appassionato di musica e consumato pianista. Partecipa a concerti di beneficenza per sostenere le attività dell&#8217;<a href="http://www.losquinchos.it/">Associazione Los Quinchos</a> per la tutela dell&#8217;infanzia abbandonata e maltrattata.</p>
+</section>
+
+<section id="domiciliazioni" class="tx">
+<h2>Domiciliazioni</h2>
+<p>Lo studio fornisce servizio di domiciliazione legale e sostituzione in udienza presso i tribunali di Lodi, Monza, Milano e Bergamo.</p>
+<p>Lo studio è dotato di collegamento diretto a Polisweb che consente l&#8217;accesso telematico alle cancellerie per ottenere informazioni riguardanti i procedimenti in corso.</p>
+</section>
+
+
+<aside id='ft'>
+
+<p>Partita IVA: 10894800159</p>
+
+<p class="notes">2014 &copy; Studio Legale Uberti. Tutti i diritti riservati.<br />L&#8217;immagine del Tribunale di Milano è un&#8217;opera derivata della fotografia <a href="http://www.flickr.com/photos/martab/1974621770/">Palazzo di Giustizia</a> scattata da <a href="http://www.flickr.com/photos/martab/">Marta B.</a> e utilizzata sotto licenza <a href="http://creativecommons.org/licenses/by-sa/2.0/deed.it">CC BY-SA 2.0</a>.</p>
+
+</aside>
+
+</div>
+<script src="smooth-scroll.js"></script>
+</body>
 </html>
