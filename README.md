@@ -1,4 +1,2 @@
 studio
 ======
-
-Studio Legale Uberti
